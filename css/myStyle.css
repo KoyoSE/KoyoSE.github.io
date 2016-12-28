@@ -3,12 +3,6 @@
 body{
 	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
 	padding-top:50px;
-	
-	/*font-weight: 300;
-	-webkit-text-size-adjust:100%;
-	overflow-x: hidden;
-	color: #000;
-	background: #fff;*/
 }
 
 .slidePanel {
@@ -25,11 +19,6 @@ display: table;
 width: 100%;
 }
  
-/*.navbar .nav li {
-display: table-cell;
-float: none;
-}*/
- 
 .navbar .nav li a {
 font-weight: bold;
 text-align: center;
@@ -42,9 +31,9 @@ border-right: 0;
 border-radius: 0 3px 3px 0;
 }
 
-.navbar-default{
-/*opacity: 0.6;*/
-}
+/*.navbar-default{
+opacity: 0.6;
+}*/
 
 @media all and (min-width:768px){
 	.navbar-nav li {
@@ -96,13 +85,13 @@ border-radius: 0 3px 3px 0;
 	text-align: center;
 }
 
-/*PROFILE*/
-#PROFILE {
+/*ABOUT*/
+#ABOUT {
 	padding: 70px 0 70px 0;
 	text-align: center;
 }
 
-#PROFILE img {
+#ABOUT img {
 	width: 20%;
 }
 
