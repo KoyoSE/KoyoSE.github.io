@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script|Rock+Salt);
+
+body{
+	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+	padding-top:50px;
+	
+	/*font-weight: 300;
+	-webkit-text-size-adjust:100%;
+	overflow-x: hidden;
+	color: #000;
+	background: #fff;*/
+}
+
+.slidePanel {
+	top: -50px;
+}
+
+.navbar .navbar-inner {
+padding: 0;
+}
+ 
+.navbar .nav {
+margin: 0;
+display: table;
+width: 100%;
+}
+ 
+/*.navbar .nav li {
+display: table-cell;
+float: none;
+}*/
+ 
+.navbar .nav li a {
+font-weight: bold;
+text-align: center;
+border-left: 1px solid rgba(255, 255, 255, .75);
+/*border-right: 1px solid rgba(0, 0, 0, .1);*/
+}
+
+.navbar .nav li:last-child a {
+border-right: 0;
+border-radius: 0 3px 3px 0;
+}
+
+.navbar-default{
+/*opacity: 0.6;*/
+}
+
+@media all and (min-width:768px){
+	.navbar-nav li {
+		display: table-cell;
+		float: none;
+		width:33%;
+	}
+	.navbar-default{
+		opacity: 0.6;
+	}
+}
+
+/*TOP*/
+#TOP img{
+	width:450px;
+	margin-bottom: 40px;
+}
+
+.title-name{
+	position: absolute;
+ 	top: 80%;
+	width: 100%;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	color: #fff;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.title-name h1{
+	font-family: 'Rock Salt', cursive;
+	font-size: 40px;
+}
+
+.title-name h2{
+	font-size: 20px;
+}
+
+/*LIFE*/
+#LIFE {
+
+	background: url(../images/motionbra3.jpg) no-repeat 100% 100% fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	color: #fff;
+
+	padding: 70px 0 70px 0;
+	background-color: #fff;
+	text-align: center;
+}
+
+/*PROFILE*/
+#PROFILE {
+	padding: 70px 0 70px 0;
+	text-align: center;
+}
+
+#PROFILE img {
+	width: 20%;
+}
+
+
